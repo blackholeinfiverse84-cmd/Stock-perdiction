@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'motion/react';
 import { 
   LineChart, 
   Line, 
@@ -17,7 +16,6 @@ import {
 } from 'recharts';
 import { TrendingUp, Activity, BarChart3 } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
-import axios from 'axios';
 
 interface CandleData {
   time: string;
