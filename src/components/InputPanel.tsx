@@ -7,7 +7,7 @@ import { Input } from './ui/input';
 import { Switch } from './ui/switch';
 import { Slider } from './ui/slider';
 import axios from 'axios';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 export function InputPanel() {
   const [stopLoss, setStopLoss] = useState(2);

@@ -123,7 +123,7 @@ export default function ChatPanel() {
     new Date(timestamp).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
 
   return (
-    <div className="flex h-[600px] max-h-[600px] min-h-[600px] flex-col rounded-2xl border border-slate-800/60 bg-slate-950/70 shadow-lg shadow-black/20" style={{ height: '600px', maxHeight: '600px' }}>
+    <div className="flex h-full min-h-0 flex-col rounded-2xl border border-slate-800/60 bg-slate-950/70 shadow-lg shadow-black/20">
       <div className="flex items-center justify-between border-b border-slate-800/60 px-5 py-4">
         <div className="flex flex-col gap-1">
           <div className="flex items-center gap-2 text-white">
