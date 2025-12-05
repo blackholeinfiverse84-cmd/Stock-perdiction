@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+**/logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pkl
+.venv/
+venv/
+env/
+
+# Cache
+.cache/
+**/cache/
+
+# Personal files (OneDrive, etc.)
+*.pdf
+!README.pdf
+
+# Temporary files
+*.tmp
+*.temp
+

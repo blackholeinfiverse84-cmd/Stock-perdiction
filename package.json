@@ -1,0 +1,12 @@
+{
+  "name": "trading-dashboard-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix trading-dashboard run dev",
+    "build": "npm --prefix trading-dashboard run build",
+    "preview": "npm --prefix trading-dashboard run preview"
+  },
+  "description": "Root package.json to run trading-dashboard commands from root directory"
+}
+
