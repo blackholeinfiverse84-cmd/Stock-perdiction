@@ -1,16 +1,20 @@
 # Node modules
 node_modules/
 **/node_modules/
+node_modules
 
 # Build outputs
 dist/
 **/dist/
+dist
 build/
 **/build/
+build
 
 # Environment variables
 .env
 .env.*
+*.env
 !.env.example
 
 # Logs
@@ -41,6 +45,10 @@ env/
 # Cache
 .cache/
 **/cache/
+.vite
+
+# Coverage
+coverage
 
 # Personal files (OneDrive, etc.)
 *.pdf
@@ -49,4 +57,3 @@ env/
 # Temporary files
 *.tmp
 *.temp
-
